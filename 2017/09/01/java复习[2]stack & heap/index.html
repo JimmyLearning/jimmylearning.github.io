@@ -5,22 +5,16 @@
   
   <title>java复习[2]|stack &amp; heap | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="##1.Stack:
-
-This lives in the general RAM (random-access memory) area, but has direct support from the processor via its stack pointer. The stack pointer is moved down to createnew memory and moved up">
+  <meta name="description" content="1.Stack:This lives in the general RAM (random-access memory) area, but has direct support from the processor via its stack pointer. The stack pointer is moved down to createnew memory and moved up to">
 <meta property="og:type" content="article">
 <meta property="og:title" content="java复习[2]|stack & heap">
 <meta property="og:url" content="http://yoursite.com/2017/09/01/java复习[2]stack & heap/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="##1.Stack:
-
-This lives in the general RAM (random-access memory) area, but has direct support from the processor via its stack pointer. The stack pointer is moved down to createnew memory and moved up">
-<meta property="og:updated_time" content="2017-09-18T13:24:42.902Z">
+<meta property="og:description" content="1.Stack:This lives in the general RAM (random-access memory) area, but has direct support from the processor via its stack pointer. The stack pointer is moved down to createnew memory and moved up to">
+<meta property="og:updated_time" content="2017-09-18T13:26:42.166Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="java复习[2]|stack & heap">
-<meta name="twitter:description" content="##1.Stack:
-
-This lives in the general RAM (random-access memory) area, but has direct support from the processor via its stack pointer. The stack pointer is moved down to createnew memory and moved up">
+<meta name="twitter:description" content="1.Stack:This lives in the general RAM (random-access memory) area, but has direct support from the processor via its stack pointer. The stack pointer is moved down to createnew memory and moved up to">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -91,21 +85,15 @@ This lives in the general RAM (random-access memory) area, but has direct suppor
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>##1.Stack:</p>
-<blockquote>
-<p>This lives in the general <code>RAM</code> (random-access memory) area, but has direct support from the processor via its stack pointer. The stack pointer is <code>moved down to create</code>new memory and <code>moved up to release</code> that memory. This is an extremely fast and efficient way to allocate storage, second only to registers. The Java compiler must know, while it is creating the program, the <code>exact size and lifetime</code>of all the data that is stored on the stack, because it must generate the code to move the stack pointer up and down. This constraint places limits on the flexibility of your programs, so while some Java storage exists on the stack ?in particular, object handles ?Java objects are not placed on the stack.</p>
-</blockquote>
+        <p>1.Stack:<br>This lives in the general <code>RAM</code> (random-access memory) area, but has direct support from the processor via its stack pointer. The stack pointer is <code>moved down to create</code>new memory and <code>moved up to release</code> that memory. This is an extremely fast and efficient way to allocate storage, second only to registers. The Java compiler must know, while it is creating the program, the <code>exact size and lifetime</code>of all the data that is stored on the stack, because it must generate the code to move the stack pointer up and down. This constraint places limits on the flexibility of your programs, so while some Java storage exists on the stack ?in particular, object handles ?Java objects are not placed on the stack.</p>
 <p><strong>栈内存：保存堆内存的地址、堆内存操作权等。栈指针创建由高到低，释放由低到高。</strong><br><strong>特点：用完就释放。</strong></p>
-<p>##2.Heap:</p>
-<blockquote>
-<p>This is a general-purpose pool of memory (also in the <code>RAM</code> area) where all Java objects live. The nice thing about the heap is that, unlike the stack, the compiler don ‘t need to know how much storage it needs to allocate from the heap or how long that storage must stay on the heap. Thus, this’s a great deal of flexibility in using storage on the heap. <code>Whenever you need to create an object, you simply write the code to create it using new and the storage is allocated on the heap when that code is executed.</code> And of course there ‘re a price you pay for this flexibility: it takes <code>more time</code> to allocate heap storage.</p>
-</blockquote>
+<p>2.Heap:<br>This is a general-purpose pool of memory (also in the <code>RAM</code> area) where all Java objects live. The nice thing about the heap is that, unlike the stack, the compiler don ‘t need to know how much storage it needs to allocate from the heap or how long that storage must stay on the heap. Thus, this’s a great deal of flexibility in using storage on the heap. <code>Whenever you need to create an object, you simply write the code to create it using new and the storage is allocated on the heap when that code is executed.</code> And of course there ‘re a price you pay for this flexibility: it takes <code>more time</code> to allocate heap storage.</p>
 <p><strong>堆内存：保存真正的数据，对象的属性、行为等。堆指针创建由低到高，释放由高到低。</strong><br><strong>特点：用完就成垃圾，等待垃圾回收机制回收。</strong></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/09/01/java复习[2]stack & heap/" data-id="cj7q7djff0000rokyerxmc1a1" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/09/01/java复习[2]stack & heap/" data-id="cj7q7g08d0001nkkyyih2htbw" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javaSE/">javaSE</a></li></ul>

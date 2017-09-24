@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>回行数 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596/* * 回行数 逻辑写法 * p">
+<meta property="og:type" content="article">
+<meta property="og:title" content="回行数">
+<meta property="og:url" content="http://yoursite.com/2017/09/20/回行数/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596/* * 回行数 逻辑写法 * p">
+<meta property="og:updated_time" content="2017-09-24T08:30:33.864Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="回行数">
+<meta name="twitter:description" content="123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596/* * 回行数 逻辑写法 * p">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <!--<link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">-->
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-回行数" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/09/20/回行数/" class="article-date">
+  <time datetime="2017-09-20T08:11:48.000Z" itemprop="datePublished">2017-09-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      回行数
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/*</span></div><div class="line"> * 回行数 逻辑写法</div><div class="line"> * ps:求算法写法</div><div class="line"> */</div><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Surround</span> </span>&#123;</div><div class="line">	<span class="comment">// 此方法适用n≥3；</span></div><div class="line">	<span class="comment">// n=1,2为特例,自行处理</span></div><div class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">around</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</div><div class="line">		<span class="keyword">int</span>[] arr = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">2</span> * n - <span class="number">1</span>];</div><div class="line">		arr[<span class="number">0</span>] = n - <span class="number">1</span>;</div><div class="line">		arr[<span class="number">1</span>] = n - <span class="number">1</span>;</div><div class="line">		arr[<span class="number">2</span>] = n - <span class="number">1</span>;</div><div class="line"></div><div class="line">		<span class="comment">// 不看正负，列出坐标变化的数组</span></div><div class="line">		<span class="keyword">if</span> (n &gt;= <span class="number">3</span>) &#123;</div><div class="line">			<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">3</span>, j = <span class="number">2</span>, flag = <span class="number">0</span>; i &lt; <span class="number">2</span> * n - <span class="number">1</span>; i++) &#123;</div><div class="line">				<span class="keyword">if</span> (flag == <span class="number">2</span>) &#123;</div><div class="line">					flag = <span class="number">1</span>;</div><div class="line">					j++;</div><div class="line">					arr[i] = n - j;</div><div class="line">				&#125; <span class="keyword">else</span> &#123;</div><div class="line">					arr[i] = n - j;</div><div class="line">					flag++;</div><div class="line">				&#125;</div><div class="line">			&#125;</div><div class="line"></div><div class="line">			<span class="comment">// 给数组加上正负</span></div><div class="line">			<span class="keyword">int</span>[] symbol = &#123; <span class="number">1</span>, <span class="number">1</span>, -<span class="number">1</span>, -<span class="number">1</span> &#125;;</div><div class="line">			<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>; i &lt; <span class="number">2</span> * n - <span class="number">1</span>; i++) &#123;</div><div class="line">				arr[i] = symbol[j++] * arr[i];</div><div class="line">				<span class="keyword">if</span> (j == <span class="number">4</span>) &#123;</div><div class="line">					j = <span class="number">0</span>;</div><div class="line">				&#125;</div><div class="line">			&#125;</div><div class="line">		&#125;</div><div class="line">		<span class="comment">// System.out.println(Arrays.toString(arr));</span></div><div class="line"></div><div class="line">		<span class="comment">// 初始化需填入二维数组的值</span></div><div class="line">		<span class="keyword">int</span>[] allNumbers = <span class="keyword">new</span> <span class="keyword">int</span>[n * n];</div><div class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; allNumbers.length; i++) &#123;</div><div class="line">			allNumbers[i] = i + <span class="number">1</span>;</div><div class="line">		&#125;</div><div class="line">		<span class="comment">// System.out.println(Arrays.toString(allNumbers));</span></div><div class="line"></div><div class="line">		<span class="comment">// 二维数组</span></div><div class="line">		<span class="keyword">int</span>[][] around = <span class="keyword">new</span> <span class="keyword">int</span>[n][n];</div><div class="line">		<span class="comment">// x,y为需要转向的坐标</span></div><div class="line">		<span class="keyword">int</span> x = <span class="number">0</span>, y = <span class="number">0</span>;</div><div class="line">		<span class="keyword">int</span> getNumber = <span class="number">0</span>;</div><div class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>, direct = <span class="number">0</span>; j &lt; arr.length; j++, direct++) &#123;</div><div class="line">			<span class="keyword">if</span> (direct % <span class="number">2</span> == <span class="number">0</span>) &#123;</div><div class="line">				<span class="keyword">int</span> temp = x;</div><div class="line">				x = x + arr[j];</div><div class="line">				<span class="keyword">if</span> (temp &lt; x) &#123;</div><div class="line">					<span class="keyword">while</span> (temp &lt; x) &#123;</div><div class="line">						around[temp][y] = allNumbers[getNumber];</div><div class="line">						temp++;</div><div class="line">						getNumber++;</div><div class="line">					&#125;</div><div class="line">				&#125; <span class="keyword">else</span> <span class="keyword">if</span> (x &lt; temp) &#123;</div><div class="line">					<span class="keyword">while</span> (x &lt; temp) &#123;</div><div class="line">						around[temp][y] = allNumbers[getNumber];</div><div class="line">						temp--;</div><div class="line">						getNumber++;</div><div class="line">					&#125;</div><div class="line">				&#125;</div><div class="line">			&#125; <span class="keyword">else</span> &#123;</div><div class="line">				<span class="keyword">int</span> temp = y;</div><div class="line">				y = y + arr[j];</div><div class="line">				<span class="keyword">if</span> (temp &lt; y) &#123;</div><div class="line">					<span class="keyword">while</span> (temp &lt; y) &#123;</div><div class="line">						around[x][temp] = allNumbers[getNumber];</div><div class="line">						temp++;</div><div class="line">						getNumber++;</div><div class="line">					&#125;</div><div class="line">				&#125; <span class="keyword">else</span> <span class="keyword">if</span> (y &lt; temp) &#123;</div><div class="line">					<span class="keyword">while</span> (y &lt; temp) &#123;</div><div class="line">						around[x][temp] = allNumbers[getNumber];</div><div class="line">						temp--;</div><div class="line">						getNumber++;</div><div class="line">					&#125;</div><div class="line">				&#125;</div><div class="line">			&#125;</div><div class="line">		&#125;</div><div class="line">		<span class="comment">// 最后一个数，不会在循环中被赋值，手动赋值</span></div><div class="line">		around[x][y] = allNumbers[allNumbers.length - <span class="number">1</span>];</div><div class="line"></div><div class="line">		<span class="comment">// 打印二维数组</span></div><div class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</div><div class="line">			<span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; n; j++) &#123;</div><div class="line">				System.out.print(around[j][i] + <span class="string">"\t"</span>);</div><div class="line">			&#125;</div><div class="line">			System.out.println();</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/09/20/回行数/" data-id="cj7yhivs50004cskyq15ojsdf" class="article-share-link">Partager</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2017/09/12/java复习[4]局部内部类访问局部变量加final/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Ancien</strong>
+      <div class="article-nav-title">java复习4| 局部内部类访问局部变量加final</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Mot-clés</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/javaSE/">javaSE</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Nuage de mot-clés</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/javaSE/" style="font-size: 10px;">javaSE</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Articles récents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/09/20/回行数/">回行数</a>
+          </li>
+        
+          <li>
+            <a href="/2017/09/12/java复习[4]局部内部类访问局部变量加final/">java复习4| 局部内部类访问局部变量加final</a>
+          </li>
+        
+          <li>
+            <a href="/2017/09/10/java复习[3]值的调用与引用/">java复习3| 值的调用与引用</a>
+          </li>
+        
+          <li>
+            <a href="/2017/09/09/java复习[2]stack & heap/">java复习2| stack &amp; heap</a>
+          </li>
+        
+          <li>
+            <a href="/2017/09/08/java复习[1]switch/">java复习1| switch</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 John Doe<br>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="/js/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
